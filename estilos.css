@@ -26,6 +26,13 @@ footer {
     display: block;
     }
 
+.gallery {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1 fr));
+}    
+    
 /* pagina responsive
 @media screen and (max-width: 768){
     body {
