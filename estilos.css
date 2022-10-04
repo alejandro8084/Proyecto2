@@ -6,14 +6,19 @@
 body {
     background: #E9ECF4;
     color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	margin-bottom: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 500px;
 }
 
 footer {
-    margin-top:100px;
-    }
-	
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+
 .text-centerr{
 	justify-content: center;
 }
